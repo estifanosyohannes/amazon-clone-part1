@@ -11,7 +11,7 @@ function Header() {
       <section className="header__container">
         {/* {logo section} */}
         <div className="logo__container">
-          <a href="#">
+          <a href="">
             <img
               src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
               alt="amazon logo"
