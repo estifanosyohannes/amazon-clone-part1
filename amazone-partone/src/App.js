@@ -1,11 +1,12 @@
 
 import './App.css';
+import Header from './Components/Heades/Header/Header';
 
 function App() {
   return (
-    <div>
-      <h1>amazon</h1>
-    </div>
+    <>
+      <Header/>
+    </>
   );
 }
 
