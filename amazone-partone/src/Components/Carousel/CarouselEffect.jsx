@@ -1,5 +1,7 @@
 import React from "react";
-import "./carousels.css";
+// import "./carousels.css";
+import classes from './carousels.module.css'
+
 import { Carousel } from "react-responsive-carousel";
 import { img } from "./img/data";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -13,11 +15,12 @@ function CarouselEffect() {
         showIndicators={false}
         showThumbs={false}
       >
+        {/* console.log(imageItem); */}
         {img.map((imageItem) => {
-          return <img src={imageItem} />;
+          return <img key={imageItem} src={imageItem} alt=""/>;
         })}
       </Carousel>
-      <div className="hero__img"></div>
+      <div className={classes.hero__img}></div>
     </div>
   );
 }

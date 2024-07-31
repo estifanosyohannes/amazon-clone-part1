@@ -2,11 +2,12 @@ export const categoryInfos = [
   {
     title: "Electronics",
     name: "electronics",
-    imgLink: "https://m.media-amazon.com/images/I/71ytHWrxpEL._AC_SX385_.jpg",
+    imgLink:
+      "https://m.media-amazon.com/images/I/71UfKEcbXNL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
   },
 
   {
-    title: "Discovery fashion trends",
+    title: "women's clothing",
     name: "women's clothing",
     imgLink: "https://m.media-amazon.com/images/I/613RqFcu9oL._AC_SY500_.jpg",
   },
